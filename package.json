@@ -1,26 +1,27 @@
 {
-    "name": "nconfig",
-    "version": "0.1.0",
-    "description": "Configuration for node project",
-    "main": "./lib/nconfig",
-    "scripts": {
-	"test": "mocha"
-    },
-    "repository": {
-	"type": "git",
-	"url": "https://github.com/HonzaL/nconfig.git"
-    },
-    "keywords": [
-	"config",
-	"configuration"
-    ],
-    "author": "Jan Lisal <lisal.honza@gmail.com>",
-    "license": "MIT",
-    "bugs": {
-	"url": "https://github.com/HonzaL/nconfig/issues"
-    },
-    "devDependencies": {
-	"mocha": "1.7.x",
-	"should": "1.2.x"
-    }
+  "name": "nconfig",
+  "version": "0.1.0",
+  "description": "Configuration for node project",
+  "main": "./lib/nconfig",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HonzaL/nconfig.git"
+  },
+  "keywords": [
+    "config",
+    "configuration"
+  ],
+  "author": "Jan Lisal <lisal.honza@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HonzaL/nconfig/issues"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2",
+    "underscore": "^1.8.3"
+  },
 }
